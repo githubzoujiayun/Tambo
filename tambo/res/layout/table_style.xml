@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#ddd">
+<android.support.v7.widget.GridLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:columnCount="4"
+    android:color="#ffffff"
+    app:rowCount="3"
+    app:orientation="vertical" xmlns:app="http://schemas.android.com/apk/res/com.karonl.tambo" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        app:layout_gravity="fill"
+        android:background="@drawable/linearlayout"
+        android:minWidth="5dp"
+       >
+     </LinearLayout>
+
+    <Button
+        app:layout_gravity="fill"
+        android:text="2"
+        android:minWidth="5dp"
+        android:layout_width="50dp"
+        android:background="@drawable/linearlayout"
+        />
+
+    <Button
+        app:layout_gravity="fill"
+        android:text="2"
+        android:minWidth="5dp"
+        android:layout_width="50dp"
+        android:background="@drawable/linearlayout"
+        />
+    <Button
+        app:layout_rowSpan="2"
+        app:layout_gravity="fill"
+        android:layout_width="50dp"
+        android:text="2"
+        android:minWidth="5dp"
+        android:background="@drawable/linearlayout"
+        />
+    <Button
+        app:layout_gravity="fill"
+        android:text="2"
+        android:minWidth="5dp"
+        android:layout_width="50dp"
+        android:background="@drawable/linearlayout"
+        />
+    <Button
+        app:layout_gravity="fill"
+        android:text="2"
+        android:minWidth="5dp"
+        android:layout_width="50dp"
+        android:background="@drawable/linearlayout"
+        />
+    <Button
+        app:layout_gravity="fill"
+        android:text="2"
+        app:layout_rowSpan="2"
+        android:minWidth="5dp"
+        android:layout_width="50dp"
+        android:background="@drawable/linearlayout"
+        />
+    <Button
+        app:layout_gravity="fill"
+        android:text="2"
+        android:minWidth="5dp"
+        android:layout_width="50dp"
+        android:background="@drawable/linearlayout"
+        />
+    <Button
+        app:layout_gravity="fill"
+        android:text="2"
+        app:layout_rowSpan="2"
+        android:minWidth="5dp"
+        android:layout_width="50dp"
+        android:background="@drawable/linearlayout"
+        />
+
+</android.support.v7.widget.GridLayout>
+</LinearLayout>
